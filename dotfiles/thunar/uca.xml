@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+  <action>
+    <icon>kitty</icon>
+    <name>Open Terminal Here</name>
+    <unique-id>1754800000000001-1</unique-id>
+    <command>kitty --directory %f</command>
+    <description>Open kitty in this folder</description>
+    <patterns>*</patterns>
+    <startup-notify/>
+    <directories/>
+  </action>
+
+  <action>
+    <icon>com.visualstudio.code</icon>
+    <name>Open in VS Code</name>
+    <unique-id>1754800000000002-2</unique-id>
+    <command>code %f</command>
+    <description>Open this folder in Visual Studio Code</description>
+    <patterns>*</patterns>
+    <directories/>
+  </action>
+
+  <action>
+    <icon>nvim</icon>
+    <name>Open in Neovim</name>
+    <unique-id>1754800000000003-3</unique-id>
+    <command>kitty --title neovim -e nvim %f</command>
+    <description>Open this folder in Neovim</description>
+    <patterns>*</patterns>
+    <startup-notify/>
+    <directories/>
+  </action>
+</actions>

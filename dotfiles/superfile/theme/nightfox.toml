@@ -1,0 +1,70 @@
+##############################################
+#                                            #
+#              Nightfox Theme                #
+#                                            #
+##############################################
+
+# Based on EdenEast/nightfox.nvim
+
+###############################################################################
+#                           Code Syntax Highlighting                          #
+###############################################################################
+
+code_syntax_highlight = "nord"
+
+###############################################################################
+#                                 Base Colors                                 #
+###############################################################################
+
+# Full Screen
+full_screen_fg = "#cdcecf"
+full_screen_bg = "#192330"
+
+# Gradient
+gradient_color = ["#719cd6", "#9d79d6"]
+
+# File Panel
+file_panel_fg = "#cdcecf"
+file_panel_bg = "#192330"
+file_panel_border = "#29394f"
+file_panel_border_active = "#719cd6"
+file_panel_top_directory_icon = "#81b29a"
+file_panel_top_path = "#719cd6"
+file_panel_item_selected_fg = "#63cdcf"
+file_panel_item_selected_bg = "#212e3f"
+
+# Footer
+footer_fg = "#cdcecf"
+footer_bg = "#192330"
+footer_border = "#29394f"
+footer_border_active = "#81b29a"
+
+# Sidebar
+sidebar_fg = "#cdcecf"
+sidebar_bg = "#192330"
+sidebar_title = "#81b29a"
+sidebar_border = "#29394f"
+sidebar_border_active = "#c94f6d"
+sidebar_item_selected_fg = "#63cdcf"
+sidebar_item_selected_bg = "#212e3f"
+sidebar_divider = "#394b70"
+
+# Modals
+modal_fg = "#cdcecf"
+modal_bg = "#192330"
+modal_border_active = "#81b29a"
+modal_cancel_fg = "#192330"
+modal_cancel_bg = "#dbc074"
+modal_confirm_fg = "#192330"
+modal_confirm_bg = "#81b29a"
+
+# Help Menu
+help_menu_hotkey = "#63cdcf"
+help_menu_title = "#81b29a"
+
+# Special
+cursor = "#f4a261"
+correct = "#81b29a"
+error = "#c94f6d"
+hint = "#63cdcf"
+cancel = "#f4a261"

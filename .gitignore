@@ -1,0 +1,40 @@
+# NixOS Hardware Configuration (específico da máquina / IDs de hardware)
+hardware-configuration.nix
+
+# Resultados de build do Nix
+result
+result-*
+
+# Arquivos de log
+*.log
+
+# Backups e arquivos temporários
+*.bak
+*.bak.*
+*~
+*.orig
+*.rej
+
+# Arquivos de troca e temporários de editores
+*.swp
+*.swo
+*.swn
+.netrwhist
+.vscode/
+.idea/
+
+# Ambientes locais e segredos
+.env
+.env.*
+secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+*.age
+
+# Direnv
+.direnv/
+
+# Caches locais
+.cache/
