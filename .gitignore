@@ -38,3 +38,4 @@ secrets/
 
 # Caches locais
 .cache/
+__pycache__/

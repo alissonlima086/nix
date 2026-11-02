@@ -11,6 +11,7 @@ local menu = "noctalia msg panel-toggle launcher"
 -------------------
 hl.on("hyprland.start", function()
   hl.exec_cmd("~/.config/hypr/scripts/steam-audio-focus.sh")
+  hl.exec_cmd("~/.config/hypr/scripts/zzz-mouse-autofix.py")
   hl.exec_cmd("noctalia")
   hl.exec_cmd("nm-applet")
   hl.exec_cmd("discord --start-minimized")
