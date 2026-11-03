@@ -8,6 +8,7 @@
     ./dotfiles.nix
     ./editor.nix
     ./services.nix
+    ./organize.nix
     ./frame-backup.nix
   ];
 
