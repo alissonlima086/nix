@@ -20,7 +20,8 @@
   services.frame-backup = {
     enable = true;
     backupDir = "/home/alisson/.system/frame-configs";
-    commitDelay = "5m";
+    commitDelay = "2m";
+    deferWhileRunning = true;
   };
 }
 
